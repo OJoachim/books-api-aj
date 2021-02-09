@@ -1,0 +1,17 @@
+{
+  "name": "BooksApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --watch \"./{,!(node_modules)/**/}*.test.js\""
+  },
+  "dependencies": {
+    "chai": "4.2.0",
+    "express": "^4.17.1",
+    "mocha": "6.2.1"
+  },
+  "repository": "git@github.com:OJoachim/books-api-aj.git",
+  "author": "A.Joachimiak <joachim07@poczta.onet.pl>"
+}
